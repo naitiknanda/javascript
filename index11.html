@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Changing Activity</title>
+    <a href="index.html">Go to Page 1</a>
+</head>
+<body>
+
+    <h1>Text Changing Activity</h1>
+
+    <p id="myText">Click the button to change me!</p>
+
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="resetText()">Reset</button>
+
+    <script>
+        function changeText() {
+            var text = document.getElementById("myText");
+            text.style.color = "blue";
+            text.innerHTML = "You clicked me!";
+        }
+
+        function resetText() {
+            var text = document.getElementById("myText");
+            text.style.color = "black";
+            text.innerHTML = "Click the button to change me!";
+        }
+    </script>
+
+</body>
+</html>

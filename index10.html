@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Changing Activity</title>
+    <a href="index.html">Go to Page 1</a>
+</head>
+<body bgcolor="white">
+
+    <h1>Color Changing Activity 🎨</h1>
+    <p>Click the buttons to change the background color.</p>
+
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('blue')">Blue</button>
+    <button onclick="changeColor('green')">Green</button>
+    <button onclick="resetColor()">Reset</button>
+
+    <script>
+        function changeColor(color) {
+            document.bgColor = color;
+        }
+
+        function resetColor() {
+            document.bgColor = "white";
+        }
+    </script>
+
+</body>
+</html>
