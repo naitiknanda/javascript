@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Switch Grade Checker</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            padding: 8px;
+            margin: 5px;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<h2>Grade Checker</h2>
+<input type="text" id="grade" placeholder="Enter Grade (A/B/C/D/F)">
+<br>
+<button onclick="checkGrade()">Check</button>
+<p id="result"></p>
+<script>
+function checkGrade() {
+    let grade = document.getElementById("grade").value.toUpperCase();
+    let message;
+
+    switch (grade) {
+        case "A":
+            message = "Excellent Work!";
+            break;
+
+        case "B":
+            message = "Good Job!";
+            break;
+
+        case "C":
+            message = "Keep Improving!";
+            break;
+        case "D":
+            message = "Study More!";
+            break;
+        case "F":
+            message = "Keep Improving!";
+            break;
+        default:
+            message = "Invalid Grade! Please enter A, B, D, F or C.";
+    }
+
+    document.getElementById("result").innerText = message;
+}
+</script>
+</body>
