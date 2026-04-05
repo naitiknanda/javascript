@@ -1,2 +1,2 @@
-# javascript
-javascript projects
+# JAVASCRIPT EEEEEEEEEEEEEEE
+JavaScript Projects of mine 
