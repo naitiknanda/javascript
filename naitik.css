@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+}
+/* Full Width NavBar*/
+.navigation{
+    background:black
+    border-top:2px solid #f2a900;
+    padding:12px 40px !important;
+}
+/*Naitik Logo*/
+.brand-logo{
+    height:26px;
+    width:auto;
+}
+/*links navigation links*/
+.navigation-link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color:whitesmoke !important;
+}
+.navigation-link:hover{
+    color:#f2a900 !important;
+}
+#projects h1{
+    font-weight:900;
+
+}
+.card{
+    border: 0;
+    border-radius: 3px;
+    box-shadow:0 6px 18px rgba(0, 0, 0, 0.35);
+}
+.card-img-top{
+    padding: 18px;
+    height: 13rem;
+    object-fit: contain;
+}
+.card-text{
+    color:black
+    font-size:.85rem;
+}
+.btn-warning{
+    font-weight: 700;
+    font-size:.8rem;
+    border-radius: 3px;
+
+}
+.card-title{
+    color:black
+}
+.media_link{
+    border: 2px solid yellow;
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin-right: 18px;
+    background: transparent;
+    text-align:left;
+    
+}
+.row.pt-5{
+    gap:18px;
+
+}
+.media_link i{
+    font-size:22px;
+}
+.media_link.bg-warning{
+    border: 2px solid #f2a900;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: #252525;
+    font-family: "Baloo Tamma 2", cursive;
+}
+.m-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-white{
+    color: whitesmoke
+}
+/*maincontainerheight*/
+.main-container {
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(https://avatars.githubusercontent.com/u/163446340?v=4);
+background-attachment: fixed;
+background-size: cover;
+}
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_row h1{
+    font-size: 5rem;
+}
+.main_row img {
+    width: auto;
+    height: 100vh;
+}
+
